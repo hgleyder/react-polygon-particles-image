@@ -5,43 +5,15 @@ import Particles from 'react-particles-js';
 import {bubble} from './particles/bubble';
 
 class ParticleHeader extends React.Component {
-  static propTypes = {
-    style: PropTypes.object,
-    backgroundImage: PropTypes.string,
-    particlesAmount: PropTypes.number,
-    particlesSize: PropTypes.number,
-    particlesColor: PropTypes.string,
-    particlesPolygonSides: PropTypes.number,
-    particlesSpeed: PropTypes.number,
-    title: PropTypes.string,
-    subtitle: PropTypes.string,
-    titleStyle: PropTypes.object,
-    subtitleStyle: PropTypes.object,
-    headerWidth: PropTypes.string,
-    headerHeight: PropTypes.string,
-    onHeaderClick: PropTypes.func,
-  };
+  constructor(props) {
+    super(props);
+  }
 
-  static defaultProps = {
-    style: {},
-    backgroundImage: '',
-    particlesAmount: 20,
-    particlesSize: 10,
-    particlesColor: '#ffffff',
-    particlesPolygonSides: 3,
-    particlesSpeed: 10,
-    title: '',
-    subtitle: '',
-    titleStyle: {},
-    subtitleStyle: {},
-    headerWidth: '100%',
-    headerHeight: '20rem',
-    onHeaderClick: null,
-  };
   render() {
     const { style, backgroundImage, particlesAmount, particlesColor, particlesSize, particlesPolygonSides, particlesSpeed,
       title, subtitle, titleStyle, subtitleStyle, headerHeight, headerWidth, onHeaderClick,
     } = this.props;
+    
     return (
       <Wrapper style={style} headerHeight={headerHeight} headerWidth={headerWidth}>
         <HeaderImage image={backgroundImage}>
@@ -94,5 +66,39 @@ const Title = styled.div`
 const Subtitle = styled.div`
   font-size: 2rem;
 `
+
+ParticleHeader.propTypes = {
+  style: PropTypes.object,
+  backgroundImage: PropTypes.string,
+  particlesAmount: PropTypes.number,
+  particlesSize: PropTypes.number,
+  particlesColor: PropTypes.string,
+  particlesPolygonSides: PropTypes.number,
+  particlesSpeed: PropTypes.number,
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  titleStyle: PropTypes.object,
+  subtitleStyle: PropTypes.object,
+  headerWidth: PropTypes.string,
+  headerHeight: PropTypes.string,
+  onHeaderClick: PropTypes.func,
+};
+
+ParticleHeader.defaultProps = {
+  style: {},
+  backgroundImage: '',
+  particlesAmount: 20,
+  particlesSize: 10,
+  particlesColor: '#ffffff',
+  particlesPolygonSides: 3,
+  particlesSpeed: 10,
+  title: '',
+  subtitle: '',
+  titleStyle: {},
+  subtitleStyle: {},
+  headerWidth: '100%',
+  headerHeight: '20rem',
+  onHeaderClick: null,
+};
 
 export default ParticleHeader;

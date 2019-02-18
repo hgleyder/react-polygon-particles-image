@@ -42,7 +42,7 @@ const MyComponent = props => (
 | style | none | Component container styles |
 | particlesAmount | 20 | number of particles |
 | particlesSize | 10 | particles size |
-| particlesColor | '#ffffff | particles color |
+| particlesColor | '#ffffff' | particles color |
 | particlesPolygonSides | 3 | particles polygon sides |
 | particlesSpeed | 10 | particles speed |
 | title | '' | Image title |

@@ -1,6 +1,6 @@
 {
   "name": "react-polygon-particles-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Image component with polygon particles",
   "main": "dist/index.js",
   "source": "src/index.js",
@@ -74,6 +74,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hgleyder/react-calendar-events-preview"
+    "url": "https://github.com/hgleyder/react-polygon-particles-image"
   }
 }

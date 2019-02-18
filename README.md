@@ -2,7 +2,7 @@
   <img width="300" height="300" src="assets/rcep-logo.png">
 </p>
 
-# React Calendar Events Preview
+# React Polygon Particles Image
 Image component with polygon particles
 
 <p align="center">

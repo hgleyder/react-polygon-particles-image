@@ -6,7 +6,7 @@
 Image component with polygon particles
 
 <p align="center">
-  <img width="300" src="assets/rcep-prev.gif">
+  <img width="500" src="assets/rppi-preview.gif">
 </p>
 
 ## Installation

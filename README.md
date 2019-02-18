@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="300" height="300" src="assets/rcep-logo.png">
+  <img width="300" height="300" src="assets/rppi-logo.png">
 </p>
 
 # React Polygon Particles Image

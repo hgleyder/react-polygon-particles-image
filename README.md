@@ -40,6 +40,15 @@ const MyComponent = props => (
 | Props | Default Values | Descriptions |
 | --- | --- | --- |
 | style | none | Component container styles |
-| events | none | list of events (uuid and date field required) |
-| color | 'white' | Text color inside a date marker |
-| primaryColor | '#616FC6' | Marker backgroud color |
+| particlesAmount | 20 | number of particles |
+| particlesSize | 10 | particles size |
+| particlesColor | '#ffffff | particles color |
+| particlesPolygonSides | 3 | particles polygon sides |
+| particlesSpeed | 10 | particles speed |
+| title | '' | Image title |
+| titleStyle | {} | Image title styles |
+| subtitle | '' | Image subtitle |
+| subtitleStyle | {} | Image subtitle styles |
+| headerWidth | '100%' | Header 2idth |
+| headerHeight | '20rem' | Header height |
+| onHeaderClick | none | On image click action |

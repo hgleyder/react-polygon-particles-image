@@ -1,6 +1,6 @@
 {
   "name": "react-polygon-particles-image",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Image component with polygon particles",
   "main": "dist/index.js",
   "source": "src/index.js",

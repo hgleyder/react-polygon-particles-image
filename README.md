@@ -22,7 +22,7 @@ const MyComponent = props => (
   <div>
     <ParticlesImage 
         style={{width: '96%', margin: '1rem 2%'}}
-        backgroundImage={"https://cdn.pixabay.com/photo/2016/04/15/04/02/water-1330252_1280.jpg"}
+        backgroundImage={"https://firebasestorage.googleapis.com/v0/b/daily-quotes-7758f.appspot.com/o/backgrounds%2F1080p-HD-Image-Nature-Desktop.jpg?alt=media&token=59419fda-0251-4caa-8b61-79980f262050"}
         particlesAmount={50}
         particlesSize={20}
         title="Polygon Particles Image"

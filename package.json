@@ -1,6 +1,6 @@
 {
   "name": "react-polygon-particles-image",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Image component with polygon particles",
   "main": "dist/index.js",
   "source": "src/index.js",
@@ -23,11 +23,12 @@
     ]
   },
   "keywords": [
-    "calendar",
-    "date",
-    "date-picker",
-    "month-picker",
-    "react"
+    "image",
+    "particles",
+    "polygon particles",
+    "animated image",
+    "image particles",
+    "polygon particles images"
   ],
   "author": {
     "name": "Gleyder Hernandez",

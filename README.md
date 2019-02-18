@@ -49,6 +49,6 @@ const MyComponent = props => (
 | titleStyle | {} | Image title styles |
 | subtitle | '' | Image subtitle |
 | subtitleStyle | {} | Image subtitle styles |
-| headerWidth | '100%' | Header 2idth |
+| headerWidth | '100%' | Header width |
 | headerHeight | '20rem' | Header height |
 | onHeaderClick | none | On image click action |
